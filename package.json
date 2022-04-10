@@ -1,0 +1,25 @@
+{
+  "name": "ctailwindb",
+  "version": "1.0.0",
+  "description": "Curso de Tailwind",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpmjim/CTailwindB.git"
+  },
+  "author": "Jimmy J. Pecho Malqui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jpmjim/CTailwindB/issues"
+  },
+  "homepage": "https://github.com/jpmjim/CTailwindB#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23"
+  }
+}
