@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  .box_card {
-    @apply w-48 h-64 shadow-md rounded-lg flex-none
-  }
+
+.card {
+  @apply w-48 h-64 shadow-md rounded-lg flex-none transform transition-all hover:-translate-y-4 hover:shadow-xl
 }

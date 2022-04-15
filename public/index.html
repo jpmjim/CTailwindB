@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
     <title>Platzi Travel</title>
   </head>
-  <body>
+  <body class="font-Montserrat">
     <nav>
 
     </nav>
@@ -19,8 +19,8 @@
       <div id="home">
         <div class="w-full h-3/4">
           <div class="w-full h-full flex flex-col absolute space-y-96 py-4 items-center">
-            <input class="outline-none p-3 rounded-full shadow-sm" placeholder="San Francisco" type="search" name="" id="">
-            <button class="w-36 rounded-full text-xl text-primary shadow-sm font-semibold p-4 bg-white">
+            <input class="outline-none p-3 rounded-full shadow-sm transition duration-300 focus-within:shadow-sm focus:ring-2 focus:w-11/12" placeholder="San Francisco" type="search" name="" id="">
+            <button class="w-48 rounded-full text-lg text-primary shadow-sm font-semibold p-4 bg-white transition duration-500 ease-in-out hover:bg-primary hover:text-white transform hover:-translate-y-1 hover:scale-110">
               Explorar
             </button>
           </div>
@@ -31,36 +31,36 @@
       </div>
       <div class="p-6" id="recomandados">
         <p class="text-3xl font-semibold text-primary">Recomendados</p>
-        <div class="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex space-x-6">
-          <div class="box_card">
-            <div class="card_img"></div>
+        <div class="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex space-x-6 overflow-y-hidden">
+          <div class="card">
+            <div class="w-full h-3/5 bg-norway bg-cover rounded-t-lg"></div>
             <div class="w-full h-2/5 bg-cyan-500 rounded-b-lg p-3">
               <p class="text-black font-bold text-xl">Norway</p>
               <p class="text-white font-medium">Paisajes Increíbles</p>
             </div>
           </div>
-          <div class="box_card">
+          <div class="card">
             <div class="w-full h-3/5 bg-new_york bg-cover rounded-t-lg"></div>
             <div class="w-full h-2/5 bg-emerald-400 rounded-b-lg p-3">
               <p class="text-black font-bold text-xl">New York</p>
               <p class="text-white font-medium">La gran manzana</p>
             </div>
           </div>
-          <div class="box_card">
+          <div class="card">
             <div class="w-full h-3/5 bg-yosemite bg-cover rounded-t-lg"></div>
             <div class="w-full h-2/5 bg-blue-500 rounded-b-lg p-3">
               <p class="text-black font-bold text-xl">Yosemi</p>
               <p class="text-white font-medium">Un descanso del mundo</p>
             </div>
           </div>
-          <div class="box_card">
+          <div class="card">
             <div class="w-full h-3/5 bg-seattle bg-cover rounded-t-lg"></div>
             <div class="w-full h-2/5 bg-red-500 rounded-b-lg p-3">
               <p class="text-black font-bold text-xl">Seattle</p>
               <p class="text-white font-medium">La gran ciudad</p>
             </div>
           </div>
-          <div class="box_card">
+          <div class="card">
             <div class="w-full h-3/5 bg-switzerland bg-cover rounded-t-lg"></div>
             <div class="w-full h-2/5 bg-violet-600 rounded-b-lg p-3">
               <p class="text-black font-bold text-xl">Switzerland</p>
