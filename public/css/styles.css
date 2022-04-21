@@ -716,7 +716,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .bg-sanFranciscoDesktop {
-  background-image: url('/public/img/sanFranciscoDesktop.jpg');
+  background-image: url('https://jpmjim.github.io/CTailwindB/public/img/sanFranciscoDesktop.jpg');
 }
 
 .bg-norway {
@@ -724,39 +724,39 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .bg-new_york {
-  background-image: url('/public/img/new_york.jpg');
+  background-image: url('https://jpmjim.github.io/CTailwindB/public/img/new_york.jpg');
 }
 
 .bg-yosemite {
-  background-image: url('/public/img/yosemite.jpg');
+  background-image: url('https://jpmjim.github.io/CTailwindB/public/img/yosemite.jpg');
 }
 
 .bg-seattle {
-  background-image: url('/public/img/seattle.jpg');
+  background-image: url('https://jpmjim.github.io/CTailwindB/public/img/seattle.jpg');
 }
 
 .bg-switzerland {
-  background-image: url('/public/img/switzerland.jpg');
+  background-image: url('https://jpmjim.github.io/CTailwindB/public/img/switzerland.jpg');
 }
 
 .bg-iceland {
-  background-image: url('/public/img/iceland.jpg');
+  background-image: url('https://jpmjim.github.io/CTailwindB/public/img/iceland.jpg');
 }
 
 .bg-chicago {
-  background-image: url('/public/img/chicago.jpg');
+  background-image: url('https://jpmjim.github.io/CTailwindB/public/img/chicago.jpg');
 }
 
 .bg-LA {
-  background-image: url('/public/img/LA.jpg');
+  background-image: url('https://jpmjim.github.io/CTailwindB/public/img/LA.jpg');
 }
 
 .bg-miami {
-  background-image: url('/public/img/miami.jpg');
+  background-image: url('https://jpmjim.github.io/CTailwindB/public/img/miami.jpg');
 }
 
 .bg-bali {
-  background-image: url('/public/img/bali.jpg');
+  background-image: url('https://jpmjim.github.io/CTailwindB/public/img/bali.jpg');
 }
 
 .bg-cover {
