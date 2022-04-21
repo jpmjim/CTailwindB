@@ -1,8 +1,8 @@
 module.exports = {
   darkMode: 'class',
   content: [
-    "./src/**/*.{html,js}",
-    "./public/index.html"
+    "./public/index.html",
+    "./src/**/*.{html,js}"
   ],
   theme: {
     extend: {
@@ -38,5 +38,7 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
 }

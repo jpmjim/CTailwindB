@@ -640,8 +640,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .overflow-x-auto {
   overflow-x: auto;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
 }
 
 .overflow-y-hidden {
@@ -805,14 +815,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 0.5rem;
 }
 
-.pl-6 {
-  padding-left: 1.5rem;
-}
-
-.pt-6 {
-  padding-top: 1.5rem;
-}
-
 .font-Montserrat {
   font-family: Montserrat, sans-serif;
 }
@@ -921,6 +923,15 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
 .card {
   height: 16rem;
   width: 12rem;
@@ -1022,6 +1033,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+@media (min-width: 640px) {
+  .sm\:w-4 {
+    width: 1rem;
+  }
+
+  .sm\:scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .sm\:scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 @media (min-width: 1024px) {
   .lg\:col-span-2 {
     grid-column: span 2 / span 2;
@@ -1061,6 +1087,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:h-auto {
     height: auto;
+  }
+
+  .lg\:w-4 {
+    width: 1rem;
   }
 
   .lg\:grid-cols-2 {
@@ -1114,5 +1144,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   .lg\:text-black {
     --tw-text-opacity: 1;
     color: rgb(0 0 0 / var(--tw-text-opacity));
+  }
+
+  .lg\:scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .lg\:scrollbar-hide::-webkit-scrollbar {
+    display: none;
   }
 }
