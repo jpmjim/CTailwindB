@@ -720,7 +720,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .bg-norway {
-  background-image: url('/public/img/norway.jpg');
+  background-image: url('https://jpmjim.github.io/CTailwindB/public/img/norway.jpg');
 }
 
 .bg-new_york {

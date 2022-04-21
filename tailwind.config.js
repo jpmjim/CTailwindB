@@ -13,7 +13,7 @@ module.exports = {
         'LA': "url('/public/img/LA.jpg')",
         'seattle': "url('/public/img/seattle.jpg')",
         'new_york': "url('/public/img/new_york.jpg')",
-        'norway': "url('/public/img/norway.jpg')",
+        'norway': "url('https://jpmjim.github.io/CTailwindB/public/img/norway.jpg')",
         'sydney': "url('/public/img/sydney.jpg')",
         'miami': "url('/public/img/miami.jpg')",
         'switzerland': "url('/public/img/switzerland.jpg')",
