@@ -12,8 +12,22 @@
     <title>Platzi Travel</title>
   </head>
   <body class="font-Montserrat">
-    <nav>
-
+    <nav class="w-full h-14 hidden bg-white lg:flex justify-between items-center fixed z-50">
+      <div class="h-auto w-auto">
+        <p class="text-xl text-primary font-bold ml-4">Platzi Travel</p>
+      </div>
+      <div class="flex space-x-8">
+        <a class="font-bold text-md text-primary" href="#home">Inicio</a>
+        <a class="font-bold text-md text-primary" href="#recomendados">Recomendados</a>
+        <a class="font-bold text-md text-primary" href="#rentas_destacadas">Rentas</a>
+        <a class="font-bold text-md text-primary" href="#faqs">FAQS</a>
+        <a class="font-bold text-md text-primary" href="#sobre_nosotros">Sobre nosotros</a>
+      </div>
+      <div class="mr-4 space-x-2 text-xl">
+        <i class="bi bi bi-search text-primary"></i>
+        <i class="i bi-moon-fill text-primary"></i>
+        <i class="bi bi-person-fill text-gray-300"></i>
+      </div>
     </nav>
     <section class="w-full h-screen">
       <!-- Home -->
@@ -142,7 +156,7 @@
           </div>
         </div>
       </div>
-      <footer class="p-6 w-full h-auto bg-gray-50 space-y-2">
+      <footer class="p-6 w-full h-72 bg-gray-50 space-y-2 lg:h-auto" id="sobre_nosotros">
         <p class="text-lg font-semibold">Acerca De</p>
         <div class="text-gray-300 text-sm space-y-2">
           <p>Acerca De</p>
@@ -153,7 +167,7 @@
         </div>
       </footer>
     </section>
-    <div class="w-full h-16 bg-red-400 fixed left-0 bottom-0 shadow-md flex space-x-8 items-center justify-center rounded-t-md lg:hidden" id="tab_bar">
+    <div class="w-full h-16 bg-red-400 fixed  left-0 bottom-0 shadow-md flex space-x-8 items-center justify-center rounded-t-md lg:hidden" id="tab_bar">
       <a href="#home">
         <i class="bi bi-house-door-fill text-2xl text-gray-200"></i>
       </a>
